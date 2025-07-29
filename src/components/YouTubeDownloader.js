@@ -15,7 +15,7 @@ const YouTubeDownloader = () => {
   const [error, setError] = useState('');
   const [debugInfo, setDebugInfo] = useState(null);
 
-  const API_BASE = 'http://localhost:5000/api';
+  const API_BASE = 'https://ytdownkb.onrender.com';
 
   const formatDuration = (seconds) => {
     if (!seconds) return 'N/A';
